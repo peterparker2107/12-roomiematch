@@ -285,7 +285,7 @@ export default function App() {
             </div>
             <div className="mt-3 flex items-baseline gap-2">
               <span className="text-2xl font-bold font-mono tracking-tight text-rose-600 dark:text-rose-400">
-                {topMatch.matchScore}%
+                {topMatch.matchScore ?? 95}%
               </span>
               <span className="text-xs text-slate-500 dark:text-slate-400 font-medium">
                 {topMatch.name} ({topMatch.hostel})

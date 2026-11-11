@@ -21,6 +21,7 @@ export interface RoommateProfile {
   };
   diet: 'Vegetarian' | 'Non-Veg Friendly' | 'Jain Food Only' | 'Flexitarian';
   canteenSpot: string;
+  matchScore?: number;
 }
 
 export interface HostelBlock {
